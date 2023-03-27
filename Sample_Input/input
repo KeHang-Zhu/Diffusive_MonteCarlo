@@ -1,0 +1,20 @@
+0       r_cnf_stat
+.true.  pyrochl
+77      Lx
+7      Ly
+7      Lz
+1.56     J_coup
+1.42    Dipo
+2.0     h
+1.0     E0
+1e6     v0
+0.33     beta
+400       Ntoss
+1000000        Nsamp
+50      N_print
+300     N_write
+10000  N_each
+1       N_measure
+3234    Seed
+80000  Max_time
+
