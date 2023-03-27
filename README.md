@@ -1,6 +1,9 @@
-# Diffusive_MonteCarlo
+# Brief intro to Classical Diffusion Monte Carlo (DMC)
 
-Diffusive Monte Carlo (DMC) is a powerful computational method used in quantum chemistry and condensed matter physics to accurately simulate the behavior of complex quantum systems. DMC is a type of Quantum Monte Carlo (QMC) technique that employs stochastic sampling and random walks to approximate the solution to the time-independent Schrödinger equation. The method focuses on the ground-state energy and wave function, capturing essential quantum-mechanical effects like electron correlation and delocalization. By using a diffusion process to propagate a set of random walkers (representing quantum states), DMC can effectively excited-state components, leaving only the ground-state component. Due to its ability to treat many-body quantum systems with high accuracy and relatively low computational cost, DMC has found applications in diverse fields such as materials science, molecular systems, and nanotechnology.
+
+Classical Diffusion Monte Carlo (DMC) is a powerful computational technique used in quantum chemistry and condensed matter physics to simulate the behavior of complex many-body systems. It employs a stochastic algorithm based on the transition rate between different states of the system, which enables the accurate calculation of thermodynamic properties such as energy, pressure, and chemical potential. Classical DMC is particularly useful for systems with strong quantum effects, such as molecular solids, liquids, and gases, and it can also be used to study the behavior of non-equilibrium systems. Despite its name, Classical DMC is not a fully classical method and incorporates some quantum mechanics through the use of imaginary time propagation.
+
+Here, the codes are used for non-equilibrium spin systems and users can use the codes to study the magnetic dynamics in the external excitations.
 
 
 <img width="657" alt="image" src="https://user-images.githubusercontent.com/72799310/227836636-6ca662d8-567a-4e5c-b26f-903f713b5830.png">
